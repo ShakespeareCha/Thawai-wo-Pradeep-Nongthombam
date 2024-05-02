@@ -17,6 +17,22 @@
             height: 100vh;
         }
 
+        .back a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    /* background-color: #2632d9; */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back a:hover {
+    color: #c01616;
+}
+
         .audio-player {
             display: flex;
             flex-direction: column;
@@ -167,6 +183,9 @@
     </style>
 </head>
 <body>
+    <div class="back">
+        <a href="https://shakespearechabungbam.github.io/ShMusic/"><b>Back</b>  </a>
+    </div>
     <div class="audio-player">
         <div class="track-info">
             <div class="track-title">Thawai-Wo</div>
